@@ -341,7 +341,7 @@ animation: hamburguer_puls 1s ease infinite;
 }
 
 #services .service-top {
-    width: 1200px;
+    max-width: 1200px;
 }
 
 #services .service-bottom {
