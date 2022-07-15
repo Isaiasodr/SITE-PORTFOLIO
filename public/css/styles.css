@@ -229,7 +229,7 @@ animation: hamburguer_puls 1s ease infinite;
 
 /* hero section */
 #hero {
-    background-image: url(/img/pexels-photo-546819.webp);
+    background-image: url(/img/principal.bmp);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -360,7 +360,7 @@ animation: hamburguer_puls 1s ease infinite;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/img/inventory.jpeg);
+    background-image: url(/img/pexels-photo-48753.webp);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
