@@ -410,6 +410,21 @@ animation: hamburguer_puls 1s ease infinite;
     padding: 100px 0;
 }
 
+#projects .projects button{
+    background-color: #3a92a1;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    
+}
+#projects .projects button:hover{
+ background-color: #186b4b;
+ transition: .5s ease;
+}
+
 #projects .projects-header h1 {
     margin-bottom: 50px;
 }
