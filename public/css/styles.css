@@ -80,9 +80,11 @@ p {
 .brand h1 span {
     color: crimson;
 }
-a{
+
+a {
     color: white;
 }
+
 /* header section*/
 #header {
     position: fixed;
@@ -125,7 +127,8 @@ a{
     overflow-x: hidden;
     transition: .5s ease left;
 }
-#header .nav-list ul.active{
+
+#header .nav-list ul.active {
     left: 0%;
 
 }
@@ -158,7 +161,8 @@ a{
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
-#header .nav-list ul li:hover a{
+
+#header .nav-list ul li:hover a {
     color: crimson;
 }
 
@@ -177,15 +181,16 @@ a{
     transform: scale(.8);
     margin-right: 20px;
 }
+
 #header .hamburguer::after {
 
-position: absolute;
-content: '';
-height: 100%;
-width: 100%;
-border-radius: 50%;
-border: 3px solid white;
-animation: hamburguer_puls 1s ease infinite;
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    animation: hamburguer_puls 1s ease infinite;
 }
 
 #header .hamburguer .bar {
@@ -218,10 +223,11 @@ animation: hamburguer_puls 1s ease infinite;
 
 }
 
-#header .hamburguer.active .bar::before{
+#header .hamburguer.active .bar::before {
     bottom: 0;
 }
-#header .hamburguer.active .bar::after{
+
+#header .hamburguer.active .bar::after {
     top: 0;
 }
 
@@ -410,19 +416,20 @@ animation: hamburguer_puls 1s ease infinite;
     padding: 100px 0;
 }
 
-#projects .projects button{
+#projects .projects button {
     background-color: #3a92a1;
     width: 100px;
     padding: 10px;
     border-radius: 10px;
-    border:none;
-    color:white;
+    border: none;
+    color: white;
     cursor: pointer;
-    
+
 }
-#projects .projects button:hover{
- background-color: #186b4b;
- transition: .5s ease;
+
+#projects .projects button:hover {
+    background-color: #186b4b;
+    transition: .5s ease;
 }
 
 #projects .projects-header h1 {
@@ -527,7 +534,9 @@ animation: hamburguer_puls 1s ease infinite;
 }
 
 #about .col-right p {
+
     margin-bottom: 20px;
+    font-size: bold;
 }
 
 #about .col-right .cta {
@@ -609,50 +618,23 @@ animation: hamburguer_puls 1s ease infinite;
 /* end contact section */
 
 /* footer */
-#footer {
-    background-image: linear-gradient(60deg, #29323c 0%, #485563);
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #29323c;
+    margin-top: auto;
+
 }
 
-#footer .footer {
-    min-height: 200px;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
-#footer h2 {
+footer p {
     color: white;
-    font-weight: 500;
-    font-size: 1.8rem;
-    letter-spacing: .1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
-#footer .social-icon {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-#footer .social-item {
-
-    height: 50px;
-    width: 50px;
-    margin: 0 5px;
-}
-
-#footer .social-item img {
-    filter: grayscale(1);
-    transition: ease .3s ease filter;
-}
-
-#footer .social-item img:hover {
-    filter: grayscale(0);
-}
-
-#footer p {
-    color: white;
-    font-size: 1.3rem;
+footer p span {
+    font-weight: bold;
+    color: crimson;
 }
 
 /* end footer */
@@ -683,15 +665,16 @@ animation: hamburguer_puls 1s ease infinite;
     }
 }
 
-@keyframes hamburguer_puls{
-   0%{
-    opacity:1 ;
-    transform: scale(1);
-   } 
-   100%{
-    opacity: 0;
-    transform: scale(1.4);
-   }
+@keyframes hamburguer_puls {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.4);
+    }
 }
 
 /* End Keyframes */
@@ -804,25 +787,30 @@ animation: hamburguer_puls 1s ease infinite;
 
 /* media for desktop */
 @media only screen and (min-width:1200px) {
-    #header .hamburguer{
+    #header .hamburguer {
         display: none;
     }
-    #header .nav-list ul{
+
+    #header .nav-list ul {
         position: initial;
         display: block;
         height: auto;
         width: fit-content;
         background-color: transparent;
     }
-    #header .nav-list ul li{
+
+    #header .nav-list ul li {
         display: inline-block;
     }
-    #header .nav-list ul li{
-    font-size: 1.8rem;
+
+    #header .nav-list ul li {
+        font-size: 1.8rem;
     }
-    #header .nav-list ul a::after{
+
+    #header .nav-list ul a::after {
         display: none;
     }
+
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
