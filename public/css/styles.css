@@ -559,7 +559,7 @@ a {
     position: absolute;
     left: -33px;
     top: 19px;
-    height: 98%;
+    height: 100%;
     width: 98%;
     border: 7px solid crimson;
     z-index: -1;
